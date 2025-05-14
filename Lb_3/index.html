@@ -1,92 +1,39 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мій Блог</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-        }
-        header {
-            background: #333;
-            color: white;
-            padding: 1rem 2rem;
-            text-align: center;
-        }
-        nav {
-            background: #444;
-            padding: 0.5rem 2rem;
-        }
-        nav a {
-            color: #fff;
-            margin-right: 15px;
-            text-decoration: none;
-        }
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            background: #fff;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .post {
-            margin-bottom: 40px;
-        }
-        .post h2 {
-            color: #333;
-        }
-        .post small {
-            color: #777;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: #333;
-            color: #fff;
-            margin-top: 40px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Мій сайт</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="fade-in">
+    <h1>Вітаю на моєму сайті</h1>
+    <p>Тут я публікую свої ідеї, проєкти та думки</p>
+  </header>
 
-    <header>
-        <h1>Блог студента</h1>
-        <p>Мій особистий блог про навчання, ІТ та життя</p>
-    </header>
+  <nav>
+    <a href="#">Головна</a>
+    <a href="#">Про мене</a>
+    <a href="#">Контакти</a>
+  </nav>
 
-    <nav>
-        <a href="#">Головна</a>
-        <a href="#">Про мене</a>
-        <a href="#">Контакти</a>
-    </nav>
+  <section class="content">
+    <article class="card slide-in">
+      <h2>Мій перший проект</h2>
+      <p>Опис проекту з детальним описом. Додано анімацію появи.</p>
+    </article>
 
-    <div class="container">
+    <article class="card slide-in">
+      <h2>JavaScript Анімація</h2>
+      <p>Цей блок з’являється з анімацією при прокрутці.</p>
+    </article>
+  </section>
 
-        <div class="post">
-            <h2>Перша публікація у блозі</h2>
-            <small>Опубліковано: 13 травня 2025</small>
-            <p>
-                Привіт! Це моя перша публікація у блозі. Тут я буду ділитись думками про програмування, проекти, навчання та все, що цікавить.
-            </p>
-        </div>
+  <footer>
+    <p>&copy; 2025 | Створено студентом</p>
+  </footer>
 
-        <div class="post">
-            <h2>Чому я вивчаю HTML та GitHub</h2>
-            <small>Опубліковано: 12 травня 2025</small>
-            <p>
-                HTML — це основа для створення вебсторінок. А GitHub дає змогу зберігати та публікувати свої роботи. У цій публікації я поділюсь першим досвідом створення блогу.
-            </p>
-        </div>
-
-    </div>
-
-    <footer>
-        &copy; 2025 Блог студента | Всі права захищено
-    </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
