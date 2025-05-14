@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Форма з перевіркою</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Контактна форма</h1>
+  <form id="contactForm">
+    <label>Ім'я:
+      <input type="text" id="name" required />
+    </label>
+    <label>Email:
+      <input type="email" id="email" required />
+    </label>
+    <label>Повідомлення:
+      <textarea id="message" required></textarea>
+    </label>
+    <button type="submit">Надіслати</button>
+  </form>
+
+  <div id="response"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
